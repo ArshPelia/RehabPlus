@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Prata&display=swap');
+
+:root{
+    --yellow: #fff200;
+    --green-yellow: #bfe321;
+    --blue-pantone: #0099ff;
+    --dark-blue: #160092;
+    --cream: #d9cb7d;
+    --lightblue: #bec7e5;
+}
+
+body{
+    height: 100%;
+    /*line-height: 180%;*/
+    text-align: center;
+    color: black;
+    font-size: 10px;
+}
+
+html{
+    height: 100%;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    line-height: 180%;
+    padding: 0;
+}
+
+.parallax1 {
+    min-height: 100%;
+    background: url("../resources/images/gym-photos/pilates1.JPG");
+}
+
+.parallax2{
+    background: url("../resources/images/gym-photos/pilates4.JPG");
+    min-height: 60%;
+}
+
+.parallax3{
+    background: url("../resources/images/gym-photos/pilates3.JPG");
+    min-height: 60%;
+}
+
+.parallax4{
+    background: url("../resources/images/gym-photos/pilates2.JPG");
+    min-height: 80%;
+}
+
+.parallax1, .parallax2,
+.parallax3, .parallax4{
+    position: relative;
+    opacity: 0.75;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.heading h1{
+    position: absolute;
+    color: black;
+    font-size: 5rem;
+    top: 38%;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-shadow: 0 0 10px #fff200;
+}
+
+.heading-sm{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    color: #fff200;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background-color: #160092;
+    padding: 10px 0;
+    /*text-shadow: 0 0 10px white;*/
+}
+
+.two-col{
+    float: left;
+    width: 45%;
+    padding: 0 2%;
+    text-align: left;
+}
+
+section{
+    overflow: auto;
+    padding: 50px 30px;
+}
+
+.dark{
+    overflow: auto;
+    padding: 50px 30px;
+    background-color: #323232;
+    color: #f2f2f2;
+}
+
+.dark .two-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2, h3{
+    padding-bottom: 1em;
+    font-size: 2rem;
+    color: #0099ff;
+}
+
+section h1{
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+    color: black;
+}
+
+p{
+    font-size: 1.2rem;
+    line-height: 1.3;
+}
+
+#benefits{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 35%;
+    width: 100%;
+    color: #fff200;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    /*text-shadow: 0 0 10px white;*/
+    line-height: 1.5;
+    padding: 50px 10px;
+    font-weight: 500;
+    background-color: rgba(35, 32, 135, 0.7);
+}
+
+@media screen and (max-width: 768px) {
+    .heading h1{
+        font-size: 3rem;
+    }
+
+    .heading-sm{
+        font-size: 1.1rem;
+    }
+
+    .two-col{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    #benefits{
+        font-size: 1rem;
+        margin: auto;
+        padding: 50px 10px;
+    }
+
+}
+
+

@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Prata&display=swap');
+
+
+:root{
+    --yellow: #fff200;
+    --green-yellow: #bfe321;
+    --blue-pantone: #0099ff;
+    --dark-blue: #160092;
+    --cream: #d9cb7d;
+    --lightblue: #bec7e5;
+}
+
+body{
+    background: #bec7e5;
+    font-family: 'Lato', sans-serif;
+}
+
+.box-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    border-radius: 4px;
+    background-color: #0099ff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    transition: .3s;
+    border: 10px groove #160092;
+}
+
+.img-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 120px;
+    border: 6px solid #bfe321;
+    border-radius: 10%;
+    margin-bottom: 10px;
+    padding: 20px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.single-box:nth-child(1) .img-area{
+    background-image: url("../resources/images/class-ogos/Body Weight Blast.png");
+}
+
+.single-box:nth-child(2) .img-area{
+    background-image: url("../resources/images/class-ogos/cardio curls & crunches.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #C2B4CB;
+}
+
+.single-box:nth-child(3) .img-area{
+    background-image: url("../resources/images/class-ogos/cardio curls & crunches.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #C2B4CB;
+}
+
+.single-box:nth-child(5) .img-area{
+    background-image: url("../resources/images/class-ogos/High Intensity.png");
+}
+
+.single-box:nth-child(6) .img-area{
+    background-image: url("../resources/images/class-ogos/intro to yoga logo.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.single-box:nth-child(7) .img-area{
+    background-image: url("../resources/images/class-ogos/Pilates.png");
+    background-size: cover;
+}
+.single-box:nth-child(8) .img-area{
+    background-image: url("../resources/images/class-ogos/Shape with steps.jpg");
+}
+
+.header-text{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 48px;
+    color: black;
+}
+
+.img-text{
+    padding-top: 20px;
+}
+
+.img-text p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.single-box:hover{
+    background: #d9cb7d;
+    color: #111;
+    border: #0099ff solid 5px;
+    transform: scale(1.12);
+}
+
+/*  MY CODE   */
+
+#title{
+    width: 100%;
+    padding: 25px;
+    background-color: #F3EED9FF;
+    color: #223;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.intro-text{
+    text-align: center;
+}
+
+.intro-text p{
+    color: white;
+    background-color: #333333;
+    letter-spacing: 2px;
+    line-height: 50px;
+    font-size: 30px;
+    padding: 5px 15px;
+}
+
+.intro-text button{
+    padding: 10px;
+    margin: 25px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: #0099ff;
+    cursor: pointer;
+    letter-spacing: 5px;
+}
+
+.intro-text button:hover{
+    background-color: #bfe321;
+    border: 3px black dot-dash;
+    color: black;
+}
+
+.intro-text button a{
+    text-decoration: none;
+    color: black;
+}
+
+.teacher{
+    text-align: center;
+    color: black;
+    background-color: #777;
+    width: 100%;
+    padding: 10px;
+}
+
+.teacher:hover{
+    background-color: #fff200;
+}
+
+/*Schedule */
+#sched img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    margin: auto;
+    border: 25px groove #fff200;
+}
+
+figcaption, #services{
+    font-weight: bold;
+    background-color: #fff200;
+    border-radius: 5px;
+    padding-left: .5em;
+    padding-bottom: .5em;
+    float: top;
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    margin: 0.5em 3em;
+    text-decoration: underline;
+}
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+
+
+/*
+
+-
+*/

@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Prata&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --yellow: #fff200;
+    --green-yellow: #bfe321;
+    --blue-pantone: #0099ff;
+    --dark-blue: #160092;
+    --cream: #d9cb7d;
+
+}
+
+/*  MAIN CLASS FOR FOOTER DESIGN */
+footer{
+    background: black;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 25px 35px;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer h3{
+    color: #0099ff;
+    font-size: 36px;
+    margin: 0;
+    font-weight: 300;
+    font-family: 'Prata', sans-serif;
+    letter-spacing: 3px;
+}
+
+.footer h3 span{
+    color: #fff200;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.footer .footer-links{
+    color: #85a807;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    font-weight: 600;
+    text-decoration: none;
+    color: inherit;
+    margin-right: 8px;
+    font-size: large;
+}
+
+.footer .footer-links a:hover {
+   text-decoration: underline;
+    color: var(--clr-bg);
+}
+
+.footer .footer-links a:before{
+    content: "|";
+    font-weight: normal;
+    font-size: 20px;
+    color: var(--clr-bg);
+    display: inline-block;
+    padding-right: 5px;
+    left: 0;
+}
+
+.footer .footer-company{
+    color: #222;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer .footer-center{
+    width: 23%;
+    padding-left: 1em;
+}
+
+.footer .footer-center i{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px 15px;
+    vertical-align: middle;
+    background: #fff200;
+    font-size: 23px;
+    color: black;
+}
+
+/*.footer .footer-center i.fa-envelope{*/
+/*    font-size: 23px;*/
+/*    line-height: 50px;*/
+/*}*/
+
+.footer .footer-center p{
+    display: inline-block;
+    color: #d9cb7d;
+    font-weight: bold;
+    vertical-align: middle;
+    margin: 0;
+    font-size: 16px;
+}
+
+.footer .footer-center p a{
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+.footer .footer-center p span{
+    display: block;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 2;
+}
+
+.footer .footer-links .link1:before{
+    content: none;
+}
+
+.footer .footer-right{
+    width: 25%;
+}
+
+.footer .footer-company-about{
+    line-height: 20px;
+    color: #1baeb5;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0
+}
+
+.footer .footer-company-about span{
+    display: block;
+    color: #fff200;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer .footer-social{
+    margin-top: 25px;
+}
+
+.footer .footer-social a{
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    background: #fff200;
+    border-radius: 2px;
+    font-size: 50px;
+    line-height: 78px;
+    color: #160092;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.footer .footer-social a:hover{
+    transform: scale(1.4);
+    background-color: #160092;
+    color: #fff200;
+    transition: ease all 0.5s;
+}
+
+/*TABLE */
+
+table{
+    margin: auto 20px;
+    position: relative;
+    width: 25%;
+}
+
+table, th, td {
+    border: 1px solid var(--clr-bg);
+    border-collapse: collapse;
+    color: #0099ff;
+    font-size: 1.3rem;
+    margin: auto;
+    width: auto;
+    height: auto;
+
+}
+
+th{
+    color: #fff200;
+}
+
+th, td {
+    padding: 0.5em;
+    text-align: left;
+}
+
+.hours{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  RESPONSIVE CODE */
+
+@media (max-width: 900px) {
+    .footer{
+        font-size: 14px;
+    }
+
+    .footer .footer-left,
+    .footer .footer-center,
+    .footer .footer-right{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer .footer-center {
+        margin-left: 0;
+    }
+
+    .footer h3{
+        margin: auto;
+        font-size: 2.1rem;
+    }
+}

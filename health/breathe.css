@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Prata&display=swap');
+
+:root{
+    --yellow: #fff200;
+    --green-yellow: #bfe321;
+    --blue-pantone: #0099ff;
+    --dark-blue: #160092;
+    --cream: #d9cb7d;
+    --lightblue: #bec7e5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background: #111;
+}
+
+section{
+    position: relative;
+    padding: 50px;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    background: linear-gradient(to top, #111, transparent);
+}
+
+.banner .content{
+    position: relative;
+    max-width: 900px;
+    text-align: center;
+    z-index: 1;
+}
+
+.banner .content h2{
+    color: #fff;
+    font-size: 5em;
+}
+
+.banner .content p{
+    color: #d9cb7d;
+    font-size: 2em;
+    margin-top: 8px;
+}
+
+.learn-btn{
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 30px;
+    background: #fff;
+    color: #333;
+    text-decoration: none;
+}
+.fitBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.yel{
+    border: inset 3px #bfe321;
+
+}
+
+.abt{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abt .contentBx{
+    max-width: 50%;
+    width: 50%;
+    text-align: end;
+    padding-right: 40px;
+}
+
+.titleText{
+    font-weight: 600;
+    color: cyan;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.text{
+    color: #fff;
+    font-size: 1.2em;
+    padding-bottom: 1rem;
+}
+
+.content2{
+    background-color: #999;
+    padding: 10px;
+}
+
+.content2 .titleText{
+    color: darkblue;
+}
+
+
+.content2 p{
+    color: black;
+}
+
+.abt .imgBx{
+    position: relative;
+    min-width: 50%;
+    width: 50%;
+    min-height: 500px;
+}
+
+.when{
+    text-align: center;
+    background-color: #2690d4;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-size: 2em;
+}
+
+.banner2,
+.banner3{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner2:before,
+.banner3:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    background: linear-gradient(to top, #111, transparent);
+}
+
+.banner2:after,
+.banner3:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    background: linear-gradient(to bottom, #111, transparent);
+}
+
+.benefits{
+   text-align: center;
+}
+
+.benefits .content{
+    text-align: center;
+}
+
+.benefits .benefitList{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.benefits .benefitList .box{
+    position: relative;
+    min-width: 350px;
+    height: 480px;
+    background: #191919;
+    transition: 0.5s;
+    margin: 10px;
+}
+
+.benefits .benefitList:hover .box{
+    opacity: 0.2;
+}
+
+.benefits .benefitList .box:hover{
+    opacity: 1;
+}
+
+.benefits .benefitList .box .imgBx{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+.benefits .benefitList .box .content{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefits .benefitList .box .content h2{
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+.benefits .benefitList .box .content h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+    opacity: 0.5;
+}
+
+#abt2{
+    text-align: left;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 800px) {
+      section{
+          padding: 20px 25px;
+      }
+
+    .banner .content h2{
+        color: #fff;
+        font-size: 2.5em;
+    }
+    .banner .content p{
+        color: #d9cb7d;
+        font-size: 1.5em;
+    }
+
+    .abt{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .abt .contentBx,
+    .abt .imgBx{
+        min-width: 100%;
+        width: 100%;
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .abt .imgBx{
+        min-height: 250px;
+    }
+    .learn-btn{
+        margin-bottom: 30px;
+    }
+
+    .benefits .benefitList .box{
+        position: relative;
+        max-width: 350px;
+        min-width: initial;
+        width: 350px;
+        height: 400px;
+        background: #191919;
+        transition: 0.5s;
+    }
+
+    .benefits .benefitList .box .imgBx{
+        height: 320px;
+    }
+
+    #abt2{
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .when{
+        font-size: 1em;
+    }
+
+}
+
+
+.border {
+    width: 150px;
+    height: 2px;
+    background: black;
+    margin: 8px auto;
+}
+

@@ -1,0 +1,223 @@
+/*  CORE STYLES   */
+@import url('https://fonts.googleapis.com/css?family=Lato|Prata&display=swap');
+
+:root{
+    --yellow: #fff200;
+    --green-yellow: #bfe321;
+    --blue-pantone: #0099ff;
+    --dark-blue: #160092;
+    --cream: #d9cb7d;
+    --lightblue: #bec7e5;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background: #333;
+    color: #bec7e5;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+main h1, main h2, main h3{
+    margin: 0;
+    padding: 1em 0;
+    font-family: 'Prata', sans-serif;
+}
+
+p{
+    margin: 0;
+    padding: 1em 0;
+}
+
+#showcase .read-btn {
+    display: inline-block;
+    background: #d9cb7d;
+    color: #160092;
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 1px solid #666;
+    margin: .5em 0;
+}
+
+#showcase .read-btn:hover{
+    background: #0099ff;
+    color: #fff200;
+}
+
+.box ul{
+    text-align: left;
+    list-style: decimal;
+    color: #82ccdd;
+    letter-spacing: 2px;
+    line-height: 1em;
+}
+
+.box ul li{
+    padding: 10px;
+    margin: 10px;
+}
+
+/*  HEADER  */
+
+#showcase{
+    min-height: 450px;
+    color: white;
+    text-align: center;
+}
+
+#showcase .bg-image{
+    position: absolute;
+    background: #333 url("../resources/images/stock-photos/handshake-fauxels.jpg")
+                no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#showcase h1{
+    padding-top: 100px;
+    padding-bottom: 0;
+    margin-top: 0;
+    color: wheat;
+    /*font-size: 4rem;*/
+}
+
+#showcase .content-wrap,
+#section-a .content-wrap{
+    padding: 0 1.5em;
+}
+
+/*  SECTION A */
+
+#section-a{
+    background: #bec7e5;
+    color: #333;
+    padding-bottom: 2em;
+    font-size: 1rem;
+}
+
+.btn{
+    text-decoration: none;
+    background: black;
+    color: #fff200;
+    letter-spacing: 2px;
+    padding: 10px;
+    text-transform: uppercase;
+    /*border: double 2px white;*/
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+/*  SECTION B   */
+
+#section-b{
+    padding: 2em 1em 1em;
+}
+
+#section-b h3{
+    color: blue;
+}
+
+#section-b ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#section-b li{
+    margin-bottom: 1em;
+    background: #d9cb7d;
+    color: #333;
+}
+
+.card-content{
+    padding: 1.5em;
+}
+
+
+/*  SECTION C   */
+
+#section-c{
+    background: #fff;
+    color: #333;
+    padding: 2em;
+}
+
+/*  SECTION D   */
+#section-d .box{
+    padding: 2em;
+    color: #fff;
+}
+
+#section-d .box:first-child{
+    background-color: #0099ff;
+}
+
+/*  FOOTER */
+
+/*#main-footer{*/
+/*    padding: 2em;*/
+/*    background:  #000;*/
+/*    color: #fff;*/
+/*    text-align: center;*/
+
+/*}*/
+
+/*#main-footer a{*/
+/*    color: #2690d4;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/* MEDIA QUERIES*/
+
+@media(min-width: 700px) {
+
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    }
+
+    #section-a .content-text{
+        columns: 2;
+        column-gap: 2em;
+    }
+
+    #section-a .content-text p{
+        padding-top: 0;
+    }
+
+    .content-wrap, #section-b ul{
+        grid-column: 2/4;
+    }
+
+    .box, #main-footer div{
+        grid-column: span 2;
+
+    }
+
+    #section-b ul{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #section-b li{
+        width: 45%;
+    }
+
+    .card img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}

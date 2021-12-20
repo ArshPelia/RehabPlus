@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Prata&display=swap');
+
+
+:root{
+    --yellow: #fff200;
+    --green-yellow: #bfe321;
+    --blue-pantone: #0099ff;
+    --dark-blue: #160092;
+    --cream: #d9cb7d;
+    --lightblue: #bec7e5;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#ensure{
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: whitesmoke;
+    font-family: 'Lato', sans-serif;
+}
+
+section p{
+    font-size: 1.5rem;
+}
+
+.wrapper{
+    text-align: center;
+    display: grid;
+    margin: 10px 50px auto;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+@media (max-width: 700px) {
+    .wrapper{
+        margin: 50px auto;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+.wrapper .box{
+    max-width: 300px;
+    width: 350px;
+    margin: 0 auto;
+    position: relative;
+    perspective: 1000px;
+}
+.wrapper .box .front-face{
+    background: cyan;
+    height: 385px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 5px 20px 0 rgba(0, 81, 250, 0.5);
+    transition: all 0.5s ease;
+    /*background-image: url("../resources/images/stock-photos/dumbells.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*object-fit: cover;*/
+}
+.box .front-face .icon{
+    height: 120px;
+}
+.box .front-face .icon i{
+    font-size: 65px;
+}
+.box .front-face span,
+.box .back-face span{
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.box .front-face .icon i,
+.box .front-face span{
+    background: linear-gradient(-135deg, #0099ff, #160092);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.box .back-face{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 385px;
+    width: 100%;
+    padding: 30px;
+    color: black;
+    opacity: 0;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    background: linear-gradient(-135deg, #fff200, #bfe321);
+    transform: translateY(110px) rotateX(-90deg);
+    box-shadow: 0 5px 20px 0 rgba(255, 242, 1, 0.68);
+    transition: all 0.5s ease;
+}
+.box .back-face p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.3;
+}
+.box:hover .back-face{
+    opacity: 1;
+    transform: rotateX(0deg);
+}
+.box:hover .front-face{
+    opacity: 0;
+    transform: translateY(-110px) rotateX(90deg);
+}
+
+section{
+    padding: 20px;
+    background: #f6f6cc;
+    border: inset 5px  #160092;
+    color: black;
+    margin: .5em 0.2em;
+}
+
+section h1{
+    color: #0099ff;
+}
+
+#needle{
+    /*background-image: url("../resources/images/stock-photos/acupunc.jpg");*/
+    background-size: cover;
+}
+
+/* Service Icons */
+
+.services-section{
+    background: #9498a7;
+    padding: 60px 0;
+}
+
+.inner-width{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.services-section h1{
+    text-align: center;
+    color: papayawhip;
+    text-transform: uppercase;
+    size: 3rem;
+}
+
+.section-title{
+    text-align: center;
+    color:  black;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 500;
+    width: 173px;
+}
+
+.border{
+    width: 160px;
+    height: 2px;
+    background:  #bfe321;
+    margin: 4px auto 30px;
+}
+
+.services-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-box{
+    max-width: 33.33%;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+}
+
+.service-icon{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #fff200;
+    color: #0099ff;
+    background-color: yellowgreen;
+    transform: rotate(45deg);
+    margin-bottom: 30px;
+    margin-top: 16px;
+    transition: 0.3s linear;
+}
+
+.service-icon i{
+    line-height: 65px;
+    transform: rotate(-45deg);
+    font-size: 26px;
+}
+
+
+.service-box:hover .service-icon{
+    background: #82ccdd;
+    color: #ddd;
+}
+
+.section-title{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.service-desc{
+    font-size: 14px;
+    color: #222;
+    font-family: Prata, sans-serif;
+}
+
+@media screen and (max-width: 960px) {
+    .service-box{
+        max-width: 45%;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .service-box{
+        max-width: 50%;
+
+    }
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+
+    .service-box{
+        max-width: 100%;
+    }
+
+
+    .box .back-face p{
+        font-size: 15px;
+        line-height: 1.1;
+    }
+
+}
+

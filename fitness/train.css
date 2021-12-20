@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Prata&display=swap');
+
+:root{
+    --yellow: #fff200;
+    --green-yellow: #bfe321;
+    --blue-pantone: #0099ff;
+    --dark-blue: #160092;
+    --cream: #d9cb7d;
+    --lightblue: #bec7e5;
+}
+
+html{
+    height: 100%;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    line-height: 180%;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    /*line-height: 180%;*/
+    color: black;
+    font-size: 10px;
+    /*position: relative;*/
+    text-align: center;
+}
+
+
+
+.parallax1{
+    background: url("../resources/images/stock-photos/boxingbag-ivan-samkov.jpg");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.parallax2{
+    background: url("../resources/images/stock-photos/dumbells-pixabay.jpg");
+    min-height: 60%;
+}
+
+.parallax3{
+    background: url("../resources/images/stock-photos/outdoor-training.jpg");
+    min-height: 60%;
+
+}
+
+.parallax4{
+    background: url("../resources/images/stock-photos/personal-training.jpg");
+    min-height: 80%;
+}
+
+.parallax1, .parallax2,
+.parallax3, .parallax4{
+    position: relative;
+    opacity: 0.9;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.heading{
+    position: absolute;
+    color: white;
+    font-size: 550%;
+    top: 38%;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    /*text-shadow: 0 0 10px #000;*/
+    line-height: 1.3;
+    font-weight: 600;
+}
+
+.heading-sm{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    color: #fff200;
+    font-size: 250%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background-color: #160092;
+    padding: 10px 0;
+    /*text-shadow: 0 0 10px white;*/
+}
+
+.two-col{
+    float: left;
+    width: 50%;
+    padding: 0 0.5%;
+    text-align: left;
+}
+
+section{
+    overflow: auto;
+    padding: 40px 50px;
+}
+
+.dark{
+    overflow: auto;
+    padding: 50px 80px;
+    background-color: #323232;
+    color: #d9cb7d;
+}
+
+.dark .two-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2,.group h3{
+    padding-bottom: 1em;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.2rem;
+}
+
+.group h1{
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+    color: #0099ff;
+    margin: 0;
+}
+
+p{
+    font-size: large;
+}
+
+@media screen and (max-width: 768px) {
+    .heading{
+        font-size: 250%;
+    }
+
+    .heading-sm{
+        font-size: 180%;
+    }
+
+    .two-col{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .parallax1, .parallax2,
+    .parallax3, .parallax4{
+        height: 100%;
+    }
+
+}
+
+.dark h2{
+    color: #bfe321;
+    text-decoration: underline;
+}
+
+

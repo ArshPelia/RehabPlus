@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Prata&display=swap');
+
+
+:root{
+    --yellow: #fff200;
+    --green-yellow: #bfe321;
+    --blue-pantone: #0099ff;
+    --dark-blue: #160092;
+    --cream: #d9cb7d;
+    --lightblue: #bec7e5;
+}
+
+body {
+    margin: 0;
+    background: rgb(15,15,15);
+    color: white;
+    text-align: center;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Prata', sans-serif;
+    margin-top: 0;
+    margin-bottom: 1em;
+    text-align: center;
+    color: #fff200;
+}
+
+article h3, article h2 {
+  //  color: rgb(199,199,199);
+    background: linear-gradient(to right, #0099ff, #bfe321);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-family: 'Prata', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    color: rgb(160, 160, 160);
+    margin-top: 0;
+}
+.outer {
+    padding: 1em;
+}
+section {
+    column-count: 1;
+    column-gap: 2em;
+}
+
+section ul{
+    padding: 0 5px;
+    color: #d9cb7d;
+    font-size: 15px;
+}
+
+section ul li{
+    margin: 5px;
+    padding: 10px;
+    letter-spacing: 2px;
+    text-align: left;
+    list-style: circle;
+}
+
+img {
+    width: 80%;
+    margin: 1em 0;
+}
+
+@media only screen and (min-width: 768px) {
+
+    body {
+        text-align: left;
+        font-size: 18px;
+    }
+
+    p {
+        line-height: 1.6em;
+    }
+
+    section {
+        column-count: 2;
+        column-rule-style: solid;
+        column-rule-color: rgb(43, 43, 43);
+    }
+
+    section > * {
+        margin-top: 0;
+    }
+
+    h1 {
+        font-size: 3rem;
+        margin: 2em 0 1em;
+    }
+
+    .outer {
+        padding: 2em 4em;
+    }
+
+    article {
+        padding: 1em;
+        background: #181818;
+    }
+
+    h2 {
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+    }
+
+    /*&::before {*/
+    /*     content: ' ';*/
+    /*     position: absolute;*/
+    /*     width: 30%;*/
+    /*     height: 10px;*/
+    /*     z-index: -1;*/
+    /*     bottom: -.3em;*/
+    /*     left: -2em;*/
+    /*     background: purple;*/
+    /*     border-radius: 1em;*/
+    /* }*/
+    /*}*/
+
+}
+
+.secondary {
+    margin-top: 2em;
+}
+
+img {
+    margin: 5px;
+    width: 100%;
+}
+
+h3 {
+    color: rgb(199,199,199);
+    margin: 1.5em 0 1em;
+}
+
+p.span-all {
+    column-span: all;
+    font-size: 1.6em;
+    padding: .5em;
+    margin: 2em 0;
+    color: #0099ff;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1100px) {
+    .outer {
+        margin: 0 auto;
+        width: 100%;
+    }
+    section {
+        column-count: 3;
+    }
+}
