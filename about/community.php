@@ -1,6 +1,6 @@
 <?php
 require '../config.php';
-include '../view/head.php' ?>
+include '../view/web-head.php' ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -45,6 +45,8 @@ include '../view/head.php' ?>
                     <li><?php echo $lang["bazaar"] ?></li>
                     <li><?php echo $lang["donation"] ?></li>
                     <li><?php echo $lang["festival"] ?></li>
+                    <li><?php echo $lang["Hockey-club"] ?></li>
+                    <li><?php echo $lang["centre"] ?></li>
                 </ul>
                 <ul>
                     <li><?php echo $lang["run"] ?></li>
@@ -53,6 +55,8 @@ include '../view/head.php' ?>
                     <li><?php echo $lang["wine"] ?></li>
                     <li><?php echo $lang["cure"] ?></li>
                     <li><?php echo $lang["basketball"] ?></li>
+                    <li><?php echo $lang["women-soccer-club"] ?></li>
+                    
                 </ul>
             </div>
 
@@ -61,4 +65,4 @@ include '../view/head.php' ?>
     </body>
 </html>
 
-<?php include '../view/footer.php';?>
+<?php include '../view/web-foot.php';?>

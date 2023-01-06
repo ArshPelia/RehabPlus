@@ -1,6 +1,6 @@
 <?php
 require "../config.php";
-include '../view/head.php' ?>
+include '../view/web-head.php' ?>
 
 <!doctype html>
 <html lang="en">
@@ -103,7 +103,7 @@ include '../view/head.php' ?>
                 <!--                        <div class="text"></div>-->
                 <!--                    </div>-->
                 <img src='../resources/images/staff-pics/katy.jpg' alt='profile image' class="profile-img">
-                <h2 class="name">Katy Sahler, B.P.H.E </h2>
+                <h2 class="name">Katy Sahler, BSc. Kin </h2>
                 <h3 class="role"><?php echo $lang["katy-role"] ?></h3>
                 <p class="description"><?php echo $lang["katy-desc"] ?></p>
                 <!--                    <button class='read-btn'>Read More</button>-->
@@ -141,20 +141,20 @@ include '../view/head.php' ?>
             <div class="email"><a href="mailto:">Email</a></div>
         </div>
 
-        <div class="card">
+        <!-- <div class="card">
             <div class="container">
-                <div class='banner-img'></div>
+                <div class='banner-img'></div> -->
 <!--                    <div class="overlay">-->
 <!--                        <div class="text"></div>-->
 <!--                    </div>-->
-                <img src='../resources/images/staff-pics/jane-f.jpeg' alt='profile image' class="profile-img">
+                <!-- <img src='../resources/images/staff-pics/jane-f.jpeg' alt='profile image' class="profile-img">
                 <h2 class="name">Jane Frapporti</h2>
                 <h3 class="role"><?php echo $lang["jane-role"] ?></h3>
-                <p class="description"><?php echo $lang["jane-desc"] ?></p>
+                <p class="description"><?php echo $lang["jane-desc"] ?></p> -->
 <!--                    <button class='read-btn'>Read More</button>-->
-            </div>
+            <!-- </div>
             <div class="email"><a href="mailto:">Email</a></div>
-        </div>
+        </div> -->
 
         <div class="card">
             <div class="container">
@@ -201,24 +201,153 @@ include '../view/head.php' ?>
             <div class="email"><a href="mailto:">Email</a></div>
         </div>
 
-            <div class="card">
-                <div class="container">
-                    <div class='banner-img'></div>
-                    <div class="overlay">
-                        <div class="text"><?php echo $lang["yves-desc2"] ?></div>
-                    </div>
-                    <img src='../resources/images/staff-pics/yves.jpg' alt='profile image' class="profile-img">
-                    <h2 class="name">Yves Viel</h2>
-                    <h3 class="role"><?php echo $lang["yves-role"] ?></h3>
-                    <p class="description"><?php echo $lang["yves-desc"] ?></p>
-                    <button class='read-btn'>Read More</button>
+        <div class="card">
+            <div class="container">
+                <div class='banner-img'></div>
+                <div class="overlay">
+                    <div class="text"><?php echo $lang["yves-desc2"] ?></div>
                 </div>
-                <div class="email"><a href="mailto:">Email</a></div>
+                <img src='../resources/images/staff-pics/yves.jpg' alt='profile image' class="profile-img">
+                <h2 class="name">Yves Viel</h2>
+                <h3 class="role"><?php echo $lang["yves-role"] ?></h3>
+                <p class="description"><?php echo $lang["yves-desc"] ?></p>
+                <button class='read-btn'>Read More</button>
             </div>
+            <div class="email"><a href="mailto:">Email</a></div>
+        </div>
+
+        <div class="card">
+            <div class="container">
+                <div class='banner-img'></div>
+                <!-- <div class="overlay">
+                    <div class="text"><?php echo $lang["branden-desc"] ?></div>
+                </div> -->
+                <img src='../resources/images/staff-pics/istockphoto-1332100919-612x612.jpg' alt='profile image' class="profile-img">
+                <h2 class="name">Branden Dubosq</h2>
+                <h3 class="role"><?php echo $lang["branden-role"] ?></h3>
+                <p class="description"><?php echo $lang["branden-desc"] ?></p>
+                <!-- <button class='read-btn'>Read More</button> -->
+            </div>
+            <div class="email"><a href="mailto:">Email</a></div>
+        </div>
+
+        <!-- card for yassine -->
+        <div class="card">
+            <div class="container">
+                <div class='banner-img'></div>
+                <!-- <div class="overlay">
+                    <div class="text"><?php echo $lang["yassine-desc2"] ?></div>
+                </div> -->
+                <img src='../resources/images/staff-pics/istockphoto-1332100919-612x612.jpg' alt='profile image' class="profile-img">
+                <h2 class="name">Yassine Lahhab</h2>
+                <h3 class="role"><?php echo $lang["yassine-role"] ?></h3>
+                <p class="description"><?php echo $lang["yassine-desc"] ?></p>
+                <!-- <button class='read-btn'>Read More</button> -->
+                </div>
+            <div class="email"><a href="mailto:">Email</a></div>
+        </div>
+
+        <!-- card for sara -->
+        <div class="card">
+            <div class="container">
+                <div class='banner-img'></div>
+                <!-- <div class="overlay">
+                    <div class="text"><?php echo $lang["sarah-desc2"] ?></div>
+                </div> -->
+                <img src='../resources/images/staff-pics/istockphoto-1332100919-612x612.jpg' alt='profile image' class="profile-img">
+                <h2 class="name">Sarah Verbeek</h2>
+                <h3 class="role"><?php echo $lang["sarah-role"] ?></h3>
+                <p class="description"><?php echo $lang["sarah-desc"] ?></p>
+                <!-- <button class='read-btn'>Read More</button> -->
+            </div>
+            <div class="email"><a href="mailto:">Email</a></div>
+        </div>
+
+        <!-- card for avenlea-->
+        <div class="card">
+            <div class="container">
+                <div class='banner-img'></div>
+                <!-- <div class="overlay">
+                    <div class="text"><?php echo $lang["avenlea-desc2"] ?></div>
+                </div> -->
+                <img src='../resources/images/staff-pics/istockphoto-1332100919-612x612.jpg' alt='profile image' class="profile-img">
+                <h2 class="name">Avenlea Cooper</h2>
+                <h3 class="role"><?php echo $lang["avenlea-role"] ?></h3>
+                <p class="description"><?php echo $lang["avenlea-desc"] ?></p>
+                <!-- <button class='read-btn'>Read More</button> -->
+                </div>
+            <div class="email"><a href="mailto:">Email</a></div>
+        </div>
+
+        <!-- card for norm -->
+        <div class="card">
+            <div class="container">
+                <div class='banner-img'></div>
+                <!-- <div class="overlay">
+                    <div class="text"><?php echo $lang["norm-desc2"] ?></div>
+                </div> -->
+                <img src='../resources/images/staff-pics/istockphoto-1332100919-612x612.jpg' alt='profile image' class="profile-img">
+                <h2 class="name">Norm Allard</h2>
+                <h3 class="role"><?php echo $lang["norm-role"] ?></h3>
+                <p class="description"><?php echo $lang["norm-desc"] ?></p>
+                <!-- <button class='read-btn'>Read More</button> -->
+            </div>
+            <div class="email"><a href="mailto:">Email</a></div>
+        </div>
+
+        <!-- card for Dennis -->
+        <div class="card">
+            <div class="container">
+                <div class='banner-img'></div>
+                <!-- <div class="overlay">
+                    <div class="text"><?php echo $lang["dennis-desc2"] ?></div>
+                </div> -->
+                <img src='../resources/images/staff-pics/istockphoto-1332100919-612x612.jpg' alt='profile image' class="profile-img">
+                <h2 class="name">Dennis Savard</h2>
+                <h3 class="role"><?php echo $lang["dennis-role"] ?></h3>
+                <p class="description"><?php echo $lang["dennis-desc"] ?></p>
+                <!-- <button class='read-btn'>Read More</button> -->
+            </div>
+            <div class="email"><a href="mailto:">Email</a></div>
+        </div>
+
+        <!-- card for Josée -->
+        <div class="card">
+            <div class="container">
+                <div class='banner-img'></div>
+                <!-- <div class="overlay">
+                    <div class="text"><?php echo $lang["josee-desc2"] ?></div>
+                </div> -->
+                <img src='../resources/images/staff-pics/istockphoto-1332100919-612x612.jpg' alt='profile image' class="profile-img">
+                <h2 class="name">Josée Marchand</h2>
+                <h3 class="role"><?php echo $lang["josee-role"] ?></h3>
+                <p class="description"><?php echo $lang["josee-desc"] ?></p>
+                <!-- <button class='read-btn'>Read More</button> -->
+            </div>
+            <div class="email"><a href="mailto:">Email</a></div>
+        </div>
+
+        <!-- card for Ginette -->
+
+        <div class="card">
+            <div class="container">
+                <div class='banner-img'></div>
+                <!-- <div class="overlay">
+                    <div class="text"><?php echo $lang["ginette-desc2"] ?></div>
+                </div> -->
+                <img src='../resources/images/staff-pics/istockphoto-1332100919-612x612.jpg' alt='profile image' class="profile-img">
+                <h2 class="name">Ginette Clouthier</h2>
+                <h3 class="role"><?php echo $lang["ginette-role"] ?></h3>
+                <p class="description"><?php echo $lang["ginette-desc"] ?></p>
+                <!-- <button class='read-btn'>Read More</button> -->
+            </div>
+            <div class="email"><a href="mailto:">Email</a></div>
+        </div>    
+
 
         </div>
     </main>
 </body>
 </html>
 
-<?php include '../view/footer.php'?>
+<?php include '../view/web-foot.php'?>
