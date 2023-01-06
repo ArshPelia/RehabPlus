@@ -66,9 +66,9 @@ include '../view/web-head.php' ?>
 
     <div id="sched">
         <figure>
-            <figcaption>
+            <!-- <figcaption>
                 Winter 2022-2023 Fitness Class Schedule
-            </figcaption>
+            </figcaption> -->
         </figure>
         <img id="myImg" alt="Virtual Schedule" src="../resources/images/Schedule/Winter 2022 Class Schedule_2-end-1.jpg">
         <!-- The Modal -->

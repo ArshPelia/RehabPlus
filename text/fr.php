@@ -487,8 +487,13 @@
         "pelv-desc" => "La santé pelvienne (homme et femme) est une intervention de physiothérapie spécialisée qui se concentre sur l'évaluation
                  et le traitement des problèmes impliquant le plancher pelvien.
                 Le plancher pelvien est un groupe de muscles qui soutiennent nos organes contre la gravité, aide à stabiliser le corps
-                avec la colonne vertébrale, contrôle la continence de la vessie et des intestins et est important dans l'activité sexuelle.
-",
+                avec la colonne vertébrale, contrôle la continence de la vessie et des intestins et est important dans l'activité sexuelle.",
+                
+        "hand" => "Hand Therapy",
+        "hand-desc" => "Fine motor skills are not a given and can often become compromised by degenerative change, neurological conditions, or traumatic injuries. 
+        Registered Occupational Therapists are able to provide coping mechanisms and exercises to improve hand function when compromised, and our own O.T., Emilie
+        Simoneau, is highly trained in these very interventions. Call today to book your assessment, she will give you with a bounty of
+        helpful resources and some pleasant exercises to get your wrists, hands, and fingers moving better again.",
 
         "best" => "Travailler avec les meilleurs !",
         "best-desc" => " Les physiothérapeutes à Rehab Plus travaillent avec des clients de tous les âges atteints d’une vaste gamme de problèmes de santé, et peuvent fournir de l’aide en manière de traitement de la douleur et de réadaptation à la suite d’une blessure aiguë comme une entorse à la cheville, ou de gestion de maladies chroniques comme le diabète ou les maladies du cœur.

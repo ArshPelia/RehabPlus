@@ -552,6 +552,12 @@
                     The pelvic floor is a group of muscles that support our organs against gravity, helps stabilize the body
                     along with the spine, controls bladder and bowel continence, and is important in sexual activity.",
 
+        "hand" => "Hand Therapy",
+        "hand-desc" => "Fine motor skills are not a given and can often become compromised by degenerative change, neurological conditions, or traumatic injuries. 
+        Registered Occupational Therapists are able to provide coping mechanisms and exercises to improve hand function when compromised, and our own O.T., Emilie
+        Simoneau, is highly trained in these very interventions. Call today to book your assessment, she will give you with a bounty of
+        helpful resources and some pleasant exercises to get your wrists, hands, and fingers moving better again.",
+
         "best" => "Work with the Best!",
         "best-desc" => " Our Physiotherapists have all undergone many years of university education to be registered clinicians.
             We are members of the Canadian Physiotherapy Association and participate in yearly professional development

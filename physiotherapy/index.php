@@ -124,7 +124,8 @@ include '../view/web-head.php' ?>
 
         <div class="box" id="needle">
             <div class="front-face">
-                <div class="icon"><i class="fas fa-file-medical-alt"></i></div>
+                <!-- <div class="icon"><i class="fas fa-file-medical-alt"></i></div> -->
+                <div class="icon"><i class="fas fa-syringe"></i></div>
                 <span><?php echo $lang['needle'] ?></span>
             </div>
             <div class="back-face">
@@ -135,12 +136,23 @@ include '../view/web-head.php' ?>
 
         <div class="box">
             <div class="front-face">
-                <div class="icon"><i class="fas fa-utensils"></i></div>
+                <div class="icon"><i class="fas fa-bone"></i></div>
                 <span>Pelvic Health</span>
             </div>
             <div class="back-face">
                 <span>Pelvic Health</span>
                 <p><?php echo $lang['pelv-desc'] ?> </p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="front-face">
+                <div class="icon"><i class="fas fa-hands"></i></div>
+                <span>Hand Therapy</span>
+            </div>
+            <div class="back-face">
+                <span>Hand Therapy</span>
+                <p><?php echo $lang['hand-desc'] ?> </p>
             </div>
         </div>
     </div>
