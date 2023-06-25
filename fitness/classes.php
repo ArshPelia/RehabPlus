@@ -24,10 +24,10 @@ include '../view/web-head.php' ?>
     <div id="sched">
         <figure>
             <figcaption>
-                Summer 2021 Virtual Fitness Schedule
+                Winter 2022-2023 Fitness Class Schedule
             </figcaption>
         </figure>
-        <img id="myImg" alt="Virtual Schedule" src="../resources/images/may-schedule.png">
+        <img id="myImg" alt="Virtual Schedule" src="../resources/images/Schedule/Winter 2022 Class Schedule_1-1-1.jpg">
         <!-- The Modal -->
         <div id="myModal" class="modal">
 
@@ -64,7 +64,50 @@ include '../view/web-head.php' ?>
         </script>
     </div>
 
-    <div class="box-area">
+    <div id="sched">
+        <figure>
+            <!-- <figcaption>
+                Winter 2022-2023 Fitness Class Schedule
+            </figcaption> -->
+        </figure>
+        <img id="myImg" alt="Virtual Schedule" src="../resources/images/Schedule/Winter 2022 Class Schedule_2-end-1.jpg">
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
+
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img01">
+
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, sed.</div>
+        </div>
+        <script>
+            // Get the modal
+            var modal = document.getElementById("myModal");
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById("myImg");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+                modal.style.display = "none";
+            }
+        </script>
+    </div>
+
+    <!-- <div class="box-area"> -->
 <!--        <div class="single-box">-->
 <!--            <div class="img-area"></div>-->
 <!--                <div class="img-text">-->
@@ -75,7 +118,7 @@ include '../view/web-head.php' ?>
 <!--            </div>-->
 
 
-        <div class="single-box">
+        <!-- <div class="single-box">
             <div class="img-area"></div>
                 <div class="img-text">
                     <span class="header-text"><strong><?php echo $lang['body-weight'] ?></strong></span>
@@ -84,7 +127,7 @@ include '../view/web-head.php' ?>
             <div class="teacher">
                 <p><strong>Instructor: Ben </strong></p>
             </div>
-        </div>
+        </div> -->
 
 <!--        <div class="single-box">-->
 <!--            <div class="img-area"></div>-->
@@ -96,7 +139,7 @@ include '../view/web-head.php' ?>
 <!--            </div>-->
 <!--        </div>-->
 
-        <div class="single-box">
+        <!-- <div class="single-box">
             <div class="img-area"></div>
             <div class="img-text">
                 <span class="header-text"><strong><?php echo $lang['cardio'] ?></strong></span>
@@ -116,7 +159,7 @@ include '../view/web-head.php' ?>
             <div class="teacher">
                 <p><strong>Instructor: Ben </strong></p>
             </div>
-        </div>
+        </div> -->
 
 <!--        <div class="single-box">-->
 <!--            <div class="img-area"></div>-->
@@ -127,7 +170,7 @@ include '../view/web-head.php' ?>
 <!--            </div>-->
 <!--        </div>-->
 
-        <div class="single-box">
+        <!-- <div class="single-box">
             <div class="img-area"></div>
             <div class="img-text">
                 <span class="header-text"><strong><?php echo $lang['forever'] ?></strong></span>
@@ -158,7 +201,7 @@ include '../view/web-head.php' ?>
             <div class="teacher">
                 <p><strong>Instructor: Ben </strong></p>
             </div>
-        </div>
+        </div> -->
 
 <!--        <div class="single-box">-->
 <!--            <div class="img-area"></div>-->
@@ -169,7 +212,7 @@ include '../view/web-head.php' ?>
 <!--            </div>-->
 <!--        </div>-->
 
-        <div class="single-box">
+        <!-- <div class="single-box">
             <div class="img-area"></div>
             <div class="img-text">
                 <span class="header-text"><strong><?php echo $lang['pilates'] ?></strong></span>
@@ -178,7 +221,7 @@ include '../view/web-head.php' ?>
             <div class="teacher">
                 <p><strong>Instructor: Marcie</strong></p>
             </div>
-        </div>
+        </div> -->
 
 <!--        <div class="single-box">-->
 <!--            <div class="img-area"></div>-->
@@ -197,7 +240,7 @@ include '../view/web-head.php' ?>
 <!--            </div>-->
 <!--        </div>-->
 
-        <div class="single-box">
+        <!-- <div class="single-box">
             <div class="img-area"></div>
             <div class="img-text">
                 <span class="header-text"><strong><?php echo $lang['shape-up'] ?></strong></span>
@@ -251,7 +294,7 @@ include '../view/web-head.php' ?>
             <div class="teacher">
                 <p><strong>Instructor: Marcie & Ben</strong></p>
             </div>
-        </div>
+        </div> -->
 
 <!--        <div class="single-box">-->
 <!--            <div class="img-area"></div>-->
@@ -261,7 +304,7 @@ include '../view/web-head.php' ?>
 <!--                    by mixing low-intensity and high-intensity moves for an interval-style, calorie-burning dance fitness party.  </p>-->
 <!--            </div>-->
 <!--        </div>-->
-
+<!-- 
         <div class="single-box">
             <div class="img-area"></div>
             <div class="img-text">
@@ -273,7 +316,7 @@ include '../view/web-head.php' ?>
             </div>
         </div>
 
-    </div>
+    </div> -->
 </body>
 </html>
 

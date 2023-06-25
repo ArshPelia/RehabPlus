@@ -99,7 +99,7 @@
                         <li><a href="../../rehabplus/about/team.php"><?php echo $lang['team'] ?></a></li>
                         <li><a href="../../rehabplus/about/facility.php"><?php echo $lang['facility'] ?></a></li>
                         <li><a href="../../rehabplus/about/community.php"><?php echo $lang['community'] ?></a></li>
-                        <li><a href="../../rehabplus/about/covid.php"><?php echo $lang['covid'] ?></a></li>
+                        <!-- <li><a href="../../rehabplus/about/covid.php"><?php echo $lang['covid'] ?></a></li> -->
                     </ul>
                 </li>
 

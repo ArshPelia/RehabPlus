@@ -16,7 +16,7 @@
 
         "Membership" => "Membership",
         "Training" => "Training",
-        "classes" => "Virtual Classes",
+        "classes" => "Classes",
 
         "cancer" => "Cancer-Wise Program",
         "cardiac" => "Cardiac Rehab",
@@ -171,10 +171,59 @@
         "yves-desc2" => "Yves started cycling more than two decades ago.  He enjoys road and mountain biking but prefers mountain biking. If I’m not giving a spin class, you will find me out on a bike in the trails and exploring the great outdoors. 
             In the winter months, on top of spin class you will find Yves outside on his snow dog and sleigh mainstring cycling trails at Hersey Lake for fat bike.  If he is not doing maintenance, you will find Yves ridding the trails on his fat bike. ",
 
-        "katy-role" => "Fitness Manager",
-        "katy-desc" => "Katy graduated from Laurentian University in 2016 with a Bachelor’s Degree in Physical and Health Education – Health Promotion. She is fluent in both French and English.
-            Katy works as Fitness Manager and strives to create an environment that is safe, motivating and encouraging for her members. Exercise and fitness have always been something she enjoys and she hopes to be able to help pass on the passion and enjoyment to others. Katy is committed to helping others to improve their health and wellness and is open to all suggestions to help improve the gym facility. 
-            She can be found in several areas of Rehab Plus and is available for assistance at any time. ",
+        "katy-role" => "BSc. Kin, Fitness Manager",
+        "katy-desc" => "Katy has been a key member of our team for over a decade, and has a comprehensive
+        understanding of health and fitness needs. She graduated from Laurentian University with a
+        Bachelor’s Degree in Kinesiology in 2016, and since that time she has been managing our gym
+        services. Katy is an energetic class instructor and coordinates many of our memberships,
+        additional programs, and promotions. Katy is always keeping fun and exciting things coming
+        your way! Katy is a proud mom to Tyson and Hazel, and loves to spend time outdoors with her
+        family.",
+
+        "branden" => "Branden Dubosq",
+        "branden-role" => "BSc. Kin, Health Promoter",
+        "branden-desc" => "Branden graduated from the University of Ottawa with a Bachelor of Science in Kinesiology in May 2022. Branden has been a great support in the physio gym, upstairs for the cardiac rehabilitation program, doing fitness assessments, coordinating memberships, and providing general customer service. Branden is an athlete having competed in hockey and cross-country, which lends him a thorough and practical grounding in exercise physiology, in addition to his broad understanding of musculoskeletal functions through his academic training.",
+
+        "yassine" => "Yassine Lahhab",
+        "yassine-role" => "Membership Coordinator",
+        "yassine-desc" => "Yassine joined our team in October 2022 as a Membership Coordinator. He is here in the gym with us in the evenings and weekends while also hard at work studying Business Administration at Université de Hearst. Born in Morocco, Yassine is fluent in French, English, and Arabic. Yassine is passionate about customer service and providing our members with the best possible gym experience, so please do not hesitate to stop by the gym desk for any membership or product questions you might have!",
+
+        "sarah" => "Sarah Verbeek",
+        "sarah-role" => "B.A. Ecology & Evolutionary Biology, Membership Coordinator and Group Trainer",
+        "sarah-desc" => "Sarah started here at Rehab Plus with us in November 2022. Sarah is a May 2022 graduate of Princeton University, where she played varsity hockey. Now back in her hometown, Sarah is always serving our members with a smile and happy to help in any way she can. With her in-depth knowledge of athletics and experience as a competitive athlete, Sarah has filled the role of dryland trainer for many of our local sports teams with the utmost enthusiasm. Come say hello and ask her any questions you may have about our services!",
+
+        "avenlea" => "Avenlea Cooper",
+        "avenlea-role" => "Membership Coordinator",
+        "avenlea-desc" => "Avenlea joined our team in December 2022, but you may have seen her friendly face around the physio gym as a co-op student beforehand. Avenlea works primarily at the gym desk serving members, but knows all of our services very well and can help you with any of your inquiries. Avenlea is a student-athlete at O’Gorman High and aims to pursue a career in health services. Please do not hesitate to flag her down in the facility if you have any questions!",
+
+        "norm" => "Norm Allard",
+        "norm-role" => "Maintenance Technician and Servicing Coordinator",
+        "norm-desc" => "Norm is a jack-of all trades when it comes to maintenance, equipment, and general facility repairs. He has helped coordinate the assembly of new equipment and lighting upgrades. Norm has a keen eye for detail and is quick to step in when anything needs technical, mechanical, or electrical attention. A master trouble-shooter, Norm is often around to make sure everything is in order, but on his own time, Norm enjoys spending time with family and spoiling his grandchildren.",
+
+        "dennis" => "Dennis Savard",
+        "dennis-role" => "Maintenance Specialist",
+        "dennis-desc" => "Dennis Savard – Maintenance Specialist
+        Dennis is our maintenance man and knows the in-and-outs of this historic building. He ensures
+        the centre is in working condition for your everyday use and has a special understanding of key
+        safety measures. Dennis oversees our heating, cooling and water systems and dedicates a lot of
+        his time to building upkeep.",
+
+        "josee" => "Josée Marchand",
+        "josee-role" => "Office Manager",
+        "josee-desc" => "Josée takes care of all our billing and administration. You may see her running around the gym
+        coordinating various tasks, but she does even more from the background to keep the facility
+        running smoothly through her numerous phone calls and well-rounded computer skills. Josée
+        oversees all invoicing for physiotherapy services and whether paying as a private patient,
+        through a WSIB or car accident claim, or receiving services through the Ministry of Health – she
+        makes sure you can all be treated by our physio staff. If you have any inquiries about billing,
+        please ask for Josée!",
+
+        "ginette" => "Ginette Clouthier",
+        "ginette-role" => "Administrative Clerk",
+        "ginette-desc" => "Ginette has been a loyal member of the Rehab Plus team for many years and fulfilled many
+        customer service roles. Currently, with her in-depth knowledge of our systems and services, her
+        main role entails organizing client profiles and electronic files, so that any documentation that
+        patients or their representatives require is readily available.",
 
         //COMMUNITY
         "charity" => "Timmins District Hospital Foundation Charity Auction",
@@ -188,7 +237,9 @@
         "wine" => "Wine, Women, and shopping",
         "cure" => "Run For the Cure",
         "basketball" => "Rehab Plus Eagles Basketball Team",
-
+        "Hockey-club" => "Timmins Majors U18 AAA Hockey Club",
+        "centre" => "Centre de santé communautaire de Timmins",
+        "women-soccer-club" => "Timmins Women's Soccer Club",
 
 
         //FITNESS
@@ -500,6 +551,12 @@
                     and treatment of concerns involving the pelvic floor.
                     The pelvic floor is a group of muscles that support our organs against gravity, helps stabilize the body
                     along with the spine, controls bladder and bowel continence, and is important in sexual activity.",
+
+        "hand" => "Hand Therapy",
+        "hand-desc" => "Fine motor skills are not a given and can often become compromised by degenerative change, neurological conditions, or traumatic injuries. 
+        Registered Occupational Therapists are able to provide coping mechanisms and exercises to improve hand function when compromised, and our own O.T., Emilie
+        Simoneau, is highly trained in these very interventions. Call today to book your assessment, she will give you with a bounty of
+        helpful resources and some pleasant exercises to get your wrists, hands, and fingers moving better again.",
 
         "best" => "Work with the Best!",
         "best-desc" => " Our Physiotherapists have all undergone many years of university education to be registered clinicians.

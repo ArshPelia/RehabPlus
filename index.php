@@ -1,6 +1,10 @@
 <?php
 require "config.php";
+<<<<<<< HEAD
 include './view/web-head.php' ?>
+=======
+include 'view/web-head.php' ?>
+>>>>>>> f8a49b363bf84c89de2ced8a324a098c54896e72
 <!doctype html>
 <html lang=en>
 <head>
@@ -116,10 +120,11 @@ include './view/web-head.php' ?>
 <div id="sched">
     <figure>
         <figcaption>
-            <?php echo $lang['sched'] ?>
+            <!-- <?php echo $lang['sched'] ?> -->
+            Winter 2022-2023 Fitness Class Schedule
         </figcaption>
     </figure>
-    <img id="myImg" alt="Virtual Schedule" src="resources/images/may-schedule.png">
+    <img id="myImg" alt="Exercise Schedule" src="resources/images/Schedule/Winter 2022 Class Schedule_1-1-1.jpg">
     <!-- The Modal -->
     <div id="myModal" class="modal">
 
@@ -130,7 +135,7 @@ include './view/web-head.php' ?>
         <img class="modal-content" id="img01">
 
         <!-- Modal Caption (Image Text) -->
-        <div id="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, sed.</div>
+        <!-- <div id="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, sed.</div> -->
     </div>
     <script>
         // Get the modal
@@ -155,6 +160,7 @@ include './view/web-head.php' ?>
         }
     </script>
 </div>
+
 </body>
 </html>
 <?php include 'view/web-foot.php' ?>
