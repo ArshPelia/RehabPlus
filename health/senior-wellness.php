@@ -1,6 +1,6 @@
 <?php
 require "../config.php";
-include '../view/head.php' ?>
+include '../view/web-head.php' ?>
 
 <!doctype html>
 <html lang="en">
@@ -61,4 +61,4 @@ include '../view/head.php' ?>
     </section>
 </body>
 </html>
-<?php include '../view/footer.php'?>
+<?php include '../view/web-foot.php'?>
